@@ -5,3 +5,11 @@ body {
   background-image: url('./images/sw-bg.jpg');
   background-size: cover;
 }
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  color: #2a2223;
+  margin: 0;
+}
+

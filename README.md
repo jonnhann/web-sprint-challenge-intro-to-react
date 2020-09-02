@@ -30,11 +30,21 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+-ReactJS is a library used within JS. It allows us to create reusable components to communicate between the code and the DOM. An additional benefit is that allows use to add JSX which maintains consitency and familiarity throughout our code. 
+
 1. Describe component state.
+
+State is where we store properties to a component so that they can be passed back and forth, and reused. It allows us to get information from an API, add to the "state" to update, and continue to iterate through the data seamlessly.
 
 1. Describe props.
 
+Props are arguments passed into React components. They allow information to be passed down to target specific pieces of data to be used within a function.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects in general are function behaviors that try to modify anything outside of the scope of the function being executed. Within react, API requests are side effects used to pull data when mapped through and added to the state.
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
